@@ -26394,6 +26394,7 @@ el(a){this.a.pop()},
 LW(a,b){if(!$.aq1){$.aq1=!0
 $.bU().$1("The performance overlay isn't supported on the web")}},
 LX(a,b,c,d){var s,r
+c
 t.S9.a(b)
 s=b.a.b
 r=new H.fC(null)
@@ -67073,10 +67074,9 @@ l=q.b
 k=l.a.h(0,"pictures")
 j=l.a.h(0,"typeFact")
 i=P.ah(["typeName",o,"fact",n,"colorNumber",m,"pictures",k,"typeFact",j,"color",l.a.h(0,"color")],t.N,t.z)
-if(p.r!=null)J.dQ(i.h(0,"pictures"),p.r)
-if(p.y!=null)J.dQ(i.h(0,"color"),p.y)
-if(p.x!=null)J.dQ(i.h(0,"typeFact"),p.x)
-p=$.bh
+if(p.r!=null&&p.y!=null&&p.x!=null){J.dQ(i.h(0,"pictures"),p.r)
+J.dQ(i.h(0,"color"),p.y)
+J.dQ(i.h(0,"typeFact"),p.x)}p=$.bh
 h=(p==null?$.bh=$.d4():p).d2(0,"[DEFAULT]")
 E.bM(h,$.cU())
 p=O.q0(new K.cm(h))
@@ -74176,4 +74176,3 @@ a(b.target)}for(var r=0;r<s.length;++r)s[r].addEventListener("load",onLoad,false
 var s=F.ahy
 if(typeof dartMainRunner==="function")dartMainRunner(s,[])
 else s([])})})()
-//# sourceMappingURL=main.dart.js.map
